@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Sriracha', cursive;
+    --font3:'Passion One', cursive;
+
+
+}
+*{
+    margin:0px;
+    padding:0px;
+    
+    }
+
+    html, body{
+        min-height: 100vh;
+        background-color: rgba(117, 141, 141, 0.767);
+        font-family: var(--font1);
+    }
+
+header{
+    background-color: black;
+    color: white;
+   text-align: center;
+    }
+    header >h1{
+        padding-top: 50px;
+        font-variant: small-caps;
+        font-family: var(--font3);
+        font-size: 6em;
+    }
+    header > p{
+        padding-bottom: 50px;
+        
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--font2);
+        font-size: 2em;
+
+    }
+
+    section.normal{
+        background-color: white;
+    }
+
+    section.imagem > p {
+        display: inline-block;
+        padding: 5px;
+        width: 400px;
+        background-color: rgba(109, 93, 93, 0.658);
+        text-shadow: 1px 1px 0px black;
+    }
+    section.imagem{
+
+        background-color: rgba(51, 51, 51);
+        color: rgb(241, 241, 241);
+        background-attachment: fixed;
+        
+        
+    }
+    section > p{
+        padding-bottom: 2em;
+    }
+
+    section#img01{
+        background-image: url('imagens/background001.jpg');
+        background-position: right center;
+        background-size: cover;
+
+    }
+
+    section#img02{
+        background-image: url('imagens/background002.jpg');
+
+    }
+
+
+
+
+
+
+
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
